@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HopHornet Technology</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="navbar" role="banner" aria-label="Primary Navigation">
+    <a href="#home" class="logo-link" aria-label="HopHornet Technology Home">
+      <img src="assets/logo.png" alt="HopHornet Logo" class="logo" />
+    </a>
+    <nav role="navigation" aria-label="Primary Navigation Menu">
+      <ul class="nav-links">
+        <li><a href="#home" tabindex="0">Home</a></li>
+        <li><a href="#blogs" tabindex="0">Blog</a></li>
+        <li><a href="#products" tabindex="0">Products</a></li>
+        <li><a href="#story" tabindex="0">Our Story</a></li>
+        <li><a href="#about" tabindex="0">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="section home-section" tabindex="-1" aria-label="Introduction">
+      <img src="assets/header3.png" alt="Innovative HopHornet Technology showcasing" class="header-img" />
+      <h1 class="main-title">HopHornet Technology</h1>
+      <p class="subtitle">Where Innovation Takes Flight 🚀</p>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blogs" class="section" tabindex="-1" aria-label="Latest Blogs">
+      <h2 class="section-title">Our Blogs</h2>
+      <div class="blog-container" role="list">
+        <article class="blog-card" role="listitem" tabindex="0" aria-describedby="desc-ai-agent">
+          <h3>AI Agent and the Future</h3>
+          <p id="desc-ai-agent">Discover how autonomous AI agents will reshape industries.</p>
+        </article>
+        <article class="blog-card" role="listitem" tabindex="0" aria-describedby="desc-research-paper">
+          <h3>Research Paper Procedure</h3>
+          <p id="desc-research-paper">Learn how to structure and publish impactful research papers.</p>
+        </article>
+        <article class="blog-card" role="listitem" tabindex="0" aria-describedby="desc-saas">
+          <h3>Next-gen SaaS Architectures</h3>
+          <p id="desc-saas">The blueprint behind building futureproof AI platforms.</p>
+        </article>
+      </div>
+
+      <!-- Expanded blog modal placeholder -->
+      <div id="expanded-blog" class="blog-expand hidden" role="dialog" aria-modal="true" aria-labelledby="expanded-title" tabindex="-1">
+        <div class="blog-content">
+          <button aria-label="Close blog details" id="close-blog-expand" class="close-btn">&times;</button>
+          <h3 id="expanded-title"></h3>
+          <p>Coming soon...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="products" class="section" tabindex="-1" aria-label="Products and Solutions">
+      <h2 class="section-title">Our Products</h2>
+      <div class="product-scroll" role="list">
+        <div class="product-card coming-soon" role="listitem" aria-label="Agentic AI Platform, Coming Soon">
+          Agentic AI Platform <br /><span>Coming Soon</span>
+        </div>
+        <div class="product-card coming-soon" role="listitem" aria-label="RAG-Powered Knowledge AI, Coming Soon">
+          RAG-Powered Knowledge AI <br /><span>Coming Soon</span>
+        </div>
+        <div class="product-card" role="listitem" aria-label="Smart SaaS Toolkit Live Preview Soon">
+          Smart SaaS Toolkit <br /><span>Live Preview Soon</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="story" class="section" tabindex="-1" aria-label="Our Story">
+      <h2 class="section-title">Our Story</h2>
+      <p>
+        It started with one developer — sitting silently atop the Lamatar heights, with a vision to craft AI platforms and SaaS tools
+        that would empower individuals, startups, and enterprises alike. HopHornet Technology is more than a company — it's a realization
+        of that moment of clarity and purpose.
+      </p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section" tabindex="-1" aria-label="About HopHornet Technology">
+      <h2 class="section-title">About HopHornet</h2>
+      <p>
+        HopHornet Technology is an AI-forward innovation company that builds scalable tools,
+        platforms, and experiences. With specialties in AI agents, cloud architecture, and modern development pipelines,
+        our mission is to enable powerful, intuitive, and purposeful software for the future.
+      </p>
+      <p>
+        📨 Contact: <a href="mailto:hophornet.technology@gmail.com">hophornet.technology@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <script src="scripts/script.js" defer></script>
+
+</body>
+</html>
